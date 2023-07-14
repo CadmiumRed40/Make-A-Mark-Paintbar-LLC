@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css';
 import NavgationBar from './components/NavigationBar/NavgationBar';
 

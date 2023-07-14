@@ -1,16 +1,20 @@
 import React from 'react'
-import NavigationBar from './NavigationBar.css'
+//import router from 'react-router-dom'
+import './NavigationBar.css'
 
 function NavgationBar() {
   return (
-    <div>
+    <div id="body">
+      <nav>
+      <span id="callUs">Call us:(888)888-8888</span>
         <ul>
-            <li>Home</li>
-            <li>Event Calendar</li>
-            <li>Private Party</li>
-            <li>Gallery</li> 
-            <li>Contact Us</li>
+            <li><a>Home</a></li>
+            <li><a>Event Calendar</a></li>
+            <li><a>Private Party</a></li>
+            <li><a>Gallery</a></li> 
+            <li><a>Contact Us</a></li>
         </ul>
+        </nav>
     </div>
   )
 }
