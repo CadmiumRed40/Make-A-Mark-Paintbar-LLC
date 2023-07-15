@@ -1,0 +1,28 @@
+#AboutUsBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    height: 70vh;
+  }
+  
+  #AboutUsTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 50px;
+    margin: 0 100px;
+    color: white;
+  }
+  
+  #AboutUsTextContainer h2 {
+    text-align: left;
+  }
+  
+  #AboutUsTextContainer p {
+    text-align: left;
+  }
