@@ -10,6 +10,7 @@ function App() {
       <NavgationBar />
       <BookButtons />
       <AboutUs />
+      <InstaFeed />
     </div>
   );
 }
