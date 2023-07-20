@@ -11,7 +11,6 @@ function App() {
       <NavgationBar />
       <BookButtons />
       <AboutUs />
-      <InstaFeed username="keekay" />
     </div>
   );
 }
