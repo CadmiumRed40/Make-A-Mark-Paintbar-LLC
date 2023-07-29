@@ -26,3 +26,6 @@ yarn-error.log*
 
 # images
 /public/images
+
+#posts
+/posts
